@@ -50,12 +50,12 @@ const Experience = () => {
                 <CardHeader className="pb-4">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <div>
-                      <CardTitle className="text-2xl font-bold text-foreground">
-                        {exp.position}
+                      <CardTitle className="text-2xl font-bold text-primary">
+                        {exp.company}
                       </CardTitle>
                       <div className="flex items-center gap-2 mt-2">
-                        <h3 className="text-xl font-semibold text-primary">
-                          {exp.company}
+                        <h3 className="text-xl font-semibold text-foreground">
+                          {exp.position}
                         </h3>
                         {exp.website && (
                           <a 

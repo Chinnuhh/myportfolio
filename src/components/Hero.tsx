@@ -20,10 +20,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
         <div className="animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Digital Marketing
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
             <span className="block bg-gradient-to-r from-accent-glow to-primary-glow bg-clip-text text-transparent">
-              Strategist & Designer
+              Sravani Badana
             </span>
           </h1>
           
@@ -42,8 +41,8 @@ const Hero = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline" 
-              className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm font-semibold px-8 py-4 text-lg"
+              variant="secondary" 
+              className="bg-white text-primary font-semibold px-8 py-4 text-lg hover:bg-white/90"
               onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work
