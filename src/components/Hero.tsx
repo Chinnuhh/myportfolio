@@ -20,8 +20,8 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
         <div className="animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
-            <span className="block bg-gradient-to-r from-accent-glow to-primary-glow bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <span className="block text-white">
               Sravani Badana
             </span>
           </h1>
@@ -31,14 +31,7 @@ const Hero = () => {
             and simplify complex ideas through storytelling and content.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4 text-lg shadow-elegant"
-              onClick={scrollToContact}
-            >
-              Let's Work Together
-            </Button>
+          <div className="flex justify-center">
             <Button 
               size="lg" 
               variant="secondary" 
