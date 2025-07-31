@@ -4,27 +4,27 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-            About Me
+            Why I'm Your Next Marketing Hire
           </h2>
           <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed">
             <p className="text-xl mb-6">
-              I'm a versatile digital marketing strategist and brand designer with a unique background that bridges 
-              technical infrastructure management and creative marketing excellence.
+              I'm a results-driven digital marketing strategist with a unique technical background that enables me to 
+              bridge the gap between complex technology and compelling marketing narratives.
             </p>
             <p className="text-lg mb-6">
-              My journey began in enterprise software engineering at DXC Technology, where I managed infrastructure 
-              operations across 8 global data centers and administered over 10,000 servers. This technical foundation 
-              gave me a deep understanding of systems, processes, and scalable solutions.
+              My foundation in enterprise infrastructure management at DXC Technology—where I managed operations across 
+              8 global data centers and 10,000+ servers—has equipped me with analytical thinking, process optimization, 
+              and systems-level problem solving that I now apply to marketing challenges.
             </p>
             <p className="text-lg mb-6">
-              Driven by passion for creativity and human-centered design, I transitioned into digital marketing and 
-              founded <strong>Pixelique Designs</strong> – a creative web studio where I've helped 20+ early-stage 
-              businesses build complete digital presences.
+              Since founding <strong>Pixelique Designs</strong>, I've successfully helped 20+ businesses scale their 
+              digital presence, demonstrating my ability to learn quickly, execute strategically, and deliver measurable 
+              results in fast-paced environments.
             </p>
             <p className="text-lg">
-              I specialize in integrating brand psychology, automation tools, and design thinking into scalable 
-              growth systems. My approach is always <strong>human-first</strong>, focusing on storytelling and 
-              authentic connections that drive real business results.
+              I bring a unique combination of technical precision and creative strategy, making me ideal for roles that 
+              require both analytical rigor and innovative thinking. I'm seeking opportunities to apply my diverse skill 
+              set to drive growth and innovation in dynamic marketing teams.
             </p>
           </div>
         </div>
