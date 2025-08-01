@@ -31,11 +31,11 @@ const Hero = () => {
             and simplify complex ideas through storytelling and content.
           </p>
           
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-4 flex-wrap">
             <Button 
               size="lg" 
               variant="secondary" 
-              className="bg-white text-primary font-semibold px-8 py-4 text-lg hover:bg-white/90"
+              className="bg-white text-primary font-semibold px-8 py-4 text-lg hover:bg-white/90 transition-all duration-300"
               onClick={() => window.open('#', '_blank')}
             >
               View Resume
@@ -43,7 +43,15 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white font-semibold px-8 py-4 text-lg hover:bg-white hover:text-primary"
+              className="border-white text-white font-semibold px-8 py-4 text-lg hover:bg-white hover:text-primary transition-all duration-300"
+              onClick={() => window.open('https://www.linkedin.com/in/sravanibadana/', '_blank')}
+            >
+              LinkedIn
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-white text-white font-semibold px-8 py-4 text-lg hover:bg-white hover:text-primary transition-all duration-300"
               onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View Portfolio

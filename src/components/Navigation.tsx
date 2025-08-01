@@ -67,24 +67,28 @@ const Navigation = () => {
             >
               Education
             </button>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-3">
               <Button 
                 variant="ghost"
                 onClick={() => window.open('https://www.linkedin.com/in/sravanibadana/', '_blank')}
-                className="hover:text-primary"
+                className={`hover:text-primary transition-all duration-300 ${
+                  isScrolled ? 'text-foreground' : 'text-white'
+                }`}
               >
                 LinkedIn
               </Button>
               <Button 
                 variant="outline"
                 onClick={() => window.open('#', '_blank')}
-                className="hover:bg-primary hover:text-white"
+                className={`hover:bg-primary hover:text-white transition-all duration-300 ${
+                  isScrolled ? 'border-border text-foreground' : 'border-white text-white'
+                }`}
               >
                 Resume
               </Button>
               <Button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-gradient-primary hover:opacity-90"
+                className="bg-gradient-primary hover:opacity-90 transition-all duration-300"
               >
                 Contact
               </Button>
@@ -97,7 +101,7 @@ const Navigation = () => {
               variant="ghost" 
               size="sm"
               onClick={() => window.open('https://www.linkedin.com/in/sravanibadana/', '_blank')}
-              className={isScrolled ? 'text-foreground' : 'text-white'}
+              className={`transition-all duration-300 ${isScrolled ? 'text-foreground' : 'text-white'}`}
             >
               LinkedIn
             </Button>
@@ -105,7 +109,7 @@ const Navigation = () => {
               variant="ghost" 
               size="sm"
               onClick={() => scrollToSection('contact')}
-              className={isScrolled ? 'text-foreground' : 'text-white'}
+              className={`transition-all duration-300 ${isScrolled ? 'text-foreground' : 'text-white'}`}
             >
               Contact
             </Button>

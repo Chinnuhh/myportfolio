@@ -53,19 +53,19 @@ const Contact = () => {
           
           <div className="grid md:grid-cols-3 gap-6">
             {/* Email */}
-            <Card className="shadow-card border-border/50 text-center">
-              <CardContent className="pt-6">
+            <Card className="shadow-card border-border/50 text-center cursor-pointer hover:shadow-elegant transition-all duration-300" onClick={() => window.location.href = 'mailto:connectwithsravani@gmail.com'}>
+              <CardContent className="pt-6 px-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl">📧</span>
                 </div>
                 <p className="font-medium text-foreground mb-2">Email</p>
-                <p className="text-muted-foreground">connectwithsravani@gmail.com</p>
+                <p className="text-muted-foreground text-sm break-words">connectwithsravani@gmail.com</p>
               </CardContent>
             </Card>
             
             {/* Phone */}
-            <Card className="shadow-card border-border/50 text-center">
-              <CardContent className="pt-6">
+            <Card className="shadow-card border-border/50 text-center cursor-pointer hover:shadow-elegant transition-all duration-300" onClick={() => window.location.href = 'tel:+919888596888'}>
+              <CardContent className="pt-6 px-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl">📱</span>
                 </div>
@@ -75,8 +75,8 @@ const Contact = () => {
             </Card>
             
             {/* Website */}
-            <Card className="shadow-card border-border/50 text-center">
-              <CardContent className="pt-6">
+            <Card className="shadow-card border-border/50 text-center cursor-pointer hover:shadow-elegant transition-all duration-300" onClick={() => window.open('https://pixelique.com', '_blank')}>
+              <CardContent className="pt-6 px-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl">🌐</span>
                 </div>

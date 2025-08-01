@@ -51,22 +51,6 @@ const Education = () => {
             </CardHeader>
           </Card>
 
-          {/* Highlights & Impact */}
-          <div className="mb-12">
-            <h3 className="text-3xl font-bold mb-8 text-foreground">Highlights & Impact</h3>
-            <Card className="shadow-card border-border/50">
-              <CardContent className="pt-6">
-                <ul className="space-y-4">
-                  {achievements.map((achievement, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground leading-relaxed">{achievement}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
 
           {/* Campus Roles */}
           <div className="mb-12">
@@ -86,6 +70,23 @@ const Education = () => {
                 </Card>
               ))}
             </div>
+          </div>
+
+          {/* Highlights & Impact */}
+          <div className="mb-12">
+            <h3 className="text-3xl font-bold mb-8 text-foreground">Highlights & Impact</h3>
+            <Card className="shadow-card border-border/50">
+              <CardContent className="pt-6">
+                <ul className="space-y-4">
+                  {achievements.map((achievement, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-muted-foreground leading-relaxed">{achievement}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Interests */}
