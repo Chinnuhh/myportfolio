@@ -67,16 +67,40 @@ const Navigation = () => {
             >
               Education
             </button>
-            <Button 
-              onClick={() => scrollToSection('contact')}
-              className="bg-gradient-primary hover:opacity-90"
-            >
-              Contact
-            </Button>
+            <div className="flex items-center space-x-4">
+              <Button 
+                variant="ghost"
+                onClick={() => window.open('https://www.linkedin.com/in/sravanibadana/', '_blank')}
+                className="hover:text-primary"
+              >
+                LinkedIn
+              </Button>
+              <Button 
+                variant="outline"
+                onClick={() => window.open('#', '_blank')}
+                className="hover:bg-primary hover:text-white"
+              >
+                Resume
+              </Button>
+              <Button 
+                onClick={() => scrollToSection('contact')}
+                className="bg-gradient-primary hover:opacity-90"
+              >
+                Contact
+              </Button>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-2">
+            <Button 
+              variant="ghost" 
+              size="sm"
+              onClick={() => window.open('https://www.linkedin.com/in/sravanibadana/', '_blank')}
+              className={isScrolled ? 'text-foreground' : 'text-white'}
+            >
+              LinkedIn
+            </Button>
             <Button 
               variant="ghost" 
               size="sm"

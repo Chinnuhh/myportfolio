@@ -59,7 +59,7 @@ const Contact = () => {
                   <span className="text-white text-2xl">📧</span>
                 </div>
                 <p className="font-medium text-foreground mb-2">Email</p>
-                <p className="text-muted-foreground">sravani@pixelique.com</p>
+                <p className="text-muted-foreground">connectwithsravani@gmail.com</p>
               </CardContent>
             </Card>
             
@@ -70,7 +70,7 @@ const Contact = () => {
                   <span className="text-white text-2xl">📱</span>
                 </div>
                 <p className="font-medium text-foreground mb-2">Phone</p>
-                <p className="text-muted-foreground">+91 98765 43210</p>
+                <p className="text-muted-foreground">+91 98885 96888</p>
               </CardContent>
             </Card>
             
@@ -88,11 +88,19 @@ const Contact = () => {
           
           <div className="mt-12 text-center">
             <div className="flex gap-4 justify-center">
-              <Button variant="outline" size="lg">
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open('https://www.linkedin.com/in/sravanibadana/', '_blank')}
+              >
                 LinkedIn
               </Button>
-              <Button variant="outline" size="lg">
-                Portfolio
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open('#', '_blank')}
+              >
+                Resume
               </Button>
             </div>
           </div>

@@ -31,14 +31,22 @@ const Hero = () => {
             and simplify complex ideas through storytelling and content.
           </p>
           
-          <div className="flex justify-center">
+          <div className="flex justify-center gap-4">
             <Button 
               size="lg" 
               variant="secondary" 
               className="bg-white text-primary font-semibold px-8 py-4 text-lg hover:bg-white/90"
+              onClick={() => window.open('#', '_blank')}
+            >
+              View Resume
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-white text-white font-semibold px-8 py-4 text-lg hover:bg-white hover:text-primary"
               onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              View My Work
+              View Portfolio
             </Button>
           </div>
         </div>
